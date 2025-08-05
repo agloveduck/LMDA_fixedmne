@@ -7,6 +7,8 @@
 
 This project applies the LMDA (Low-Rank Multi-Domain Adaptation) model to the BCI Competition IV-2a motor imagery dataset. It includes preprocessing (bandpass filtering, normalization, Euclidean alignment), model training, and evaluation with customized metrics.
 
+## Dataset bci2a(.gdf&.mat)
+https://pan.baidu.com/s/16K8WGUC-_KOq27rNzmF1qA 提取码: 6i5h
 ## 📁 Code Structure
 
 - `cal_result.py`: Calculates average accuracy ± std and Cohen's Kappa for each subject. Computes metrics based on `Best test acc` and `Mean acc of last 10 epochs`.
